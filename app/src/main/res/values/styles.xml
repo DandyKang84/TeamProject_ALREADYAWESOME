@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="homeRecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="homeButton">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">@color/main</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+    <style name="recyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="listHead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/main</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="listHeadSub" parent="listHead">
+        <item name="android:textColor">@color/sub</item>
+    </style>
+    <style name="listBody">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/round_layout</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="listCategory">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="listValue" parent="listCategory">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="listValue1" parent="listCategory">
+        <item name="android:layout_alignBottom">@id/tv1</item>
+        <item name="android:layout_alignParentBottom">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_toEndOf">@+id/tv1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="listButton">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">false</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:backgroundTint">@color/sub</item>
+        <item name="android:textColor">@color/main</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="viewBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="ratingBarTrue" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:numStars">5</item>
+        <item name="android:rating">0</item>
+        <item name="android:stepSize">0.1</item>
+        <item name="android:progressTint">@color/star</item>
+        <item name="android:secondaryProgressTint">@color/star</item>
+    </style>
+    <style name="ratingBarFalse" parent="ratingBarTrue">
+        <item name="android:stepSize">1</item>
+        <item name="android:isIndicator">false</item>
+    </style>
+    <style name="MaterialTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    </style>
+    <style name="viewBarHome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#A6A6A6</item>
+    </style>
+</resources>

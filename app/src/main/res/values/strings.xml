@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">ALREADY_AWESOME</string>
+    <string name="mainTitle">ALREADY AWESOME</string>
+    <string name="subTitle">이미 완벽한 당신을 위해\n준비한 더 특별한 오늘</string>
+    <string name="hair">HAIR</string>
+    <string name="hairbest">HAIR BEST</string>
+    <string name="makeupbest">MAKEUP BEST</string>
+    <string name="nailbest">NAIL BEST</string>
+    <string name="skinbest">SKINCARE BEST</string>
+    <string name="nail">NAIL</string>
+    <string name="makeUp">MAKEUP</string>
+    <string name="skinCare">SKINCARE</string>
+    <string name="id">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="passwordCheck">비밀번호(확인)</string>
+    <string name="name">이름</string>
+    <string name="birthDate">생년월일</string>
+    <string name="year">YYYY</string>
+    <string name="month">MM</string>
+    <string name="day">DD</string>
+    <string name="gender">성별</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="phone">전화번호</string>
+    <string name="email">이메일</string>
+    <string name="review">REVIEW</string>
+    <string name="viewReview">리뷰 전체 보기</string>
+    <string name="myInformation">내 정보</string>
+    <string name="myReservation">예약 내역</string>
+    <string name="writeReview">리뷰쓰기</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="register">REGISTER</string>
+    <string name="edit">EDIT</string>
+    <string name="memberDataEdit">회원정보수정</string>
+    <string name="reservationList">RESERVATION LIST</string>
+    <string name="QnA1">자주하는 질문</string>
+    <string name="QnA2">Q&amp;A</string>
+    <string name="reservationNotice">버튼을 누르기 전에 한 번 더 확인 바랍니다</string>
+    <string name="contactUs1">문의하기</string>
+    <string name="contactUs2">고객센터로 바로 연결됩니다.</string>
+    <string name="termsOfUse1">이용약관</string>
+    <string name="termsOfUse2">TERMS OF USE</string>
+    <string name="shopName">가게명</string>
+    <string name="writer">작성자</string>
+    <string name="chooseMenu">메뉴 선택</string>
+    <string name="chooseDate">날짜 선택</string>
+    <string name="chooseTime">시간 선택</string>
+    <string name="choosePayment">결제 수단 선택</string>
+    <string name="close">CLOSE</string>
+    <string name="reviewHint">내용을 입력해주세요</string>
+    <string name="ok">OK</string>
+    <string name="defaultMenu">커트</string>
+    <string name="selectMenu">메뉴를 선택하세요</string>
+    <string name="categoryMenu">예약메뉴</string>
+    <string name="categoryDate">예약일자</string>
+    <string name="categoryTime">예약시간</string>
+    <string name="categoryPrice">결제금액</string>
+    <string name="categoryPayment">결제수단</string>
+    <string name="categoryPhone">매장전화</string>
+    <string name="categoryName">예약자명</string>
+    <string name="categoryAddress">매장주소</string>
+    <string name="categoryButton">예약 취소</string>
+    <string name="defaultDate1">2022년 11월 26일</string>
+    <string name="defaultDate2">YYYY-MM-DD</string>
+    <string name="defaultTime">18시 00분</string>
+    <string name="defaultDateTime">2022년 11월 26일 18시 00분</string>
+    <string name="defaultName">전은아</string>
+    <string name="defaultPhone">02–411–1111</string>
+    <string name="defaultPrice">120,000원</string>
+    <string name="defaultReview">좋아요</string>
+    <string name="defaultOther">커트별도</string>
+    <string name="defaultPayment">매장에서 카드결제</string>
+    <string name="defaultShopName">데일리 샵</string>
+    <string name="defaultOpeningHours">09:00~22:00</string>
+    <string name="defaultOpeningTime">00:00</string>
+    <string name="defaultClosingTime">00:00</string>
+    <string name="am">오전</string>
+    <string name="pm">오후</string>
+    <string name="openingHours">운영시간</string>
+    <string name="defaultMenuPrice">커트 : 15,000원 ~</string>
+    <string name="defaultAddress">서울시 성동구 성수동 222–22</string>
+    <string name="verticalBar">|</string>
+    <string name="title">이미 완벽한 당신을 위해 준비한\n더 특별한 오늘.. ALREADY AWESOME</string>
+    <string name="question1">이름, 휴대폰 번호를 꼭 입력 해야하나요?</string>
+    <string name="question2">어플에 노출된 가격과 실제 샵에 있는 가격이 왜 다른가요?</string>
+    <string name="question3">리뷰를 작성하고 업로드가 안돼요</string>
+    <string name="question4">시술권을 선물할 수 있나요?</string>
+    <string name="question5">예약한 내역의 결제수단을 변경할 수 있나요?</string>
+    <string name="question6">고객센터 번호와 운영시간을 알려주세요</string>
+    <string name="qnAComment">도움말을 통해\n문제를 해결하지 못하셨나요?</string>
+    <string name="copyRight">ⓒ ALREADY AWESOME Corp. All rights reserved.</string>
+    <string name="termsOfUseContent">이 약관은 미래 회사가 운영하는 미래 사이버 Already Awesome
+        (이하 “Already Awesome”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를
+        이용함에 있어 사이버 Already Awesome과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.
+        \n\n해당 내용은 공정거래위원회에서 제공하는 전자상거래 표준약관(표준약관 제10023호)의 내용을 차용하였습니다.
+    </string>
+    <string name="my">MY</string>
+    <string name="tilde">~</string>
+    <string name="shopInfo">매장소개</string>
+    <string name="defaultShopInfo">따듯한 분위기가 함께 하는 데일리 샵 입니다</string>
+    <string name="menuPrice">메뉴가격</string>
+    <string name="menu">MENU</string>
+    <string name="defaultPriceCut">커트 : 16,000원 ~ +@</string>
+    <string name="defaultPricePerm">파마 : 35,000원 ~ +@</string>
+    <string name="defaultPriceDye">염색 : 30,000원 ~ +@</string>
+    <string name="reservation">RESERVATION</string>
+    <string name="call">CALL</string>
+    <string name="logout">로그아웃</string>
+    <string name="search">찾기</string>
+    <string name="check">Check</string>
+    <string name="goToShop">매장으로 이동</string>
+    <string name="sortByLowPrice">낮은 가격순</string>
+    <string name="sortByHighPrice">높은 가격순</string>
+    <string name="sortByGrade">별점순</string>
+    <string name="sortBy">정렬기준</string>
+    <string name="qna1">해당 샵에서 고객 예약 확인을 위하여 이름과 휴대폰 번호가 필요합니다.\n
+        예약한 시간에 방문하지 않은 경우, 해당 헤어샵에서 방문 여부 확인을 위해\n
+        전화를 드릴 수 있습니다\n
+        이 경우 당황하지 마시고 방문 여부를 전달 해 주세요\n
+        감사합니다</string>
+    <string name="qna2">저희 ALREADY AWESOME은 고객의 편의를 위해 각 컨텐츠\n
+        (가격 정보, 디자이너 정보, 시술이미지, 예약가능시간)을 제공받아\n
+        실시간서비스 업데이트 주기에 따라 반영되고 있습니다\n
+        본 서비스를 통해 정보의 정확성, 신뢰성 있는 컨텐츠를 제공하기 위해\n
+        노력하지만, 해당 매장의 정보변경 시간과 저희 ALREADY AWESOME에\n
+        반영되는 시간의 차이가 생겨 일부 정보에 차이가 발생할 수 있습니다\n
+        매장의 사정에 따라 차이가 발생된 가격에 대하여\n
+        저희 ALREADY AWESOME은 어떠한 책임도 지지 않습니다. </string>
+    <string name="qna3">리뷰 글자수가 300자를 초과하면 정상적으로 사진과 텍스트를 작성해도\n
+       업로드가 되지 않는 경우가 있습니다\n
+        텍스트를 줄인 상태에서 재업로드를 해주세요\n
+        이와 같은 방법으로 시도했는데도 되지 않을 경우 고객센터(1577-0000)로\n
+        문의 주시면 빠르게 확인하여 조치해드리겠습니다\n
+        감사합니다</string>
+    <string name="qna4">해당매장으로 직접 문의 해 주시길 바라며, 저희 ALREADY AWESOME은\n
+        선물하기와 관련한 서비스를 제공하지 않습니다</string>
+    <string name="qna5">아쉽게도 결제수단 변경은 불가능 합니다\n
+        결제수단 변경이 필요하신 경우 매장 방문 후 취소를 진행 해 주세요.</string>
+    <string name="qna6">고객센터는 1577-0000이며,\n
+        운영시간은 오전 09시부터 오후 18시까지 입니다</string>
+</resources>
