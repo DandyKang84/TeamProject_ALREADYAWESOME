@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvListShopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultShopName"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relatveLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/listCategory"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="false"
+            android:text="◈ 예약일자 :" />
+
+        <TextView
+            android:id="@+id/tvListDate"
+            style="@style/listValue1"
+            android:text="@string/defaultDate1" />
+
+        <Button
+            android:id="@+id/btnListCancel"
+            style="@style/listButton"
+            android:text="@string/categoryButton" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 예약시간 :" />
+
+        <TextView
+            android:id="@+id/tvListTime"
+            style="@style/listValue"
+            android:text="@string/defaultTime"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 예약메뉴 :" />
+
+        <TextView
+            android:id="@+id/tvListMenu"
+            style="@style/listValue"
+            android:text="@string/defaultMenu" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 예약자명 :" />
+
+        <TextView
+            android:id="@+id/tvListName"
+            style="@style/listValue"
+            android:text="@string/defaultName" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 예약주소 :" />
+
+        <TextView
+            android:id="@+id/tvListAddress"
+            style="@style/listValue"
+            android:text="@string/defaultAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 매장전화 :" />
+
+        <TextView
+            android:id="@+id/tvListPhone"
+            style="@style/listValue"
+            android:text="@string/defaultPhone" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 결제금액 :" />
+
+        <TextView
+            android:id="@+id/tvListPrice"
+            style="@style/listValue"
+            android:text="@string/defaultPrice" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearlayout">
+
+        <TextView
+            style="@style/listCategory"
+            android:text="◈ 결제수단 :" />
+
+        <TextView
+            android:id="@+id/tvListPayment"
+            style="@style/listValue"
+            android:text="@string/defaultPayment" />
+    </LinearLayout>
+
+    <View style="@style/viewBar" />
+</LinearLayout>
