@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/btnHomeHair"
+                    style="@style/homeButton"
+                    android:backgroundTint="@color/hair"
+                    android:text="@string/hair" />
+
+                <android.widget.Button
+                    android:id="@+id/btnHomeNail"
+                    style="@style/homeButton"
+                    android:backgroundTint="@color/nail"
+                    android:text="@string/nail" />
+
+                <android.widget.Button
+                    android:id="@+id/btnHomeMakeUp"
+                    style="@style/homeButton"
+                    android:backgroundTint="@color/makeUp"
+                    android:text="@string/makeUp" />
+
+                <android.widget.Button
+                    android:id="@+id/btnHomeSkinCare"
+                    style="@style/homeButton"
+                    android:backgroundTint="@color/skinCare"
+                    android:text="@string/skinCare" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <View
+                    style="@style/viewBarHome"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/hair"
+                    android:textStyle="bold"
+                    android:text="@string/hairbest" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvHomeHair"
+                    style="@style/homeRecyclerView" />
+
+                <View
+                    style="@style/viewBarHome"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/nail"
+                    android:textStyle="bold"
+                    android:text="@string/nailbest" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvHomeNail"
+                    style="@style/homeRecyclerView" />
+
+                <View
+                    style="@style/viewBarHome"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/makeUp"
+                    android:textStyle="bold"
+                    android:text="@string/makeupbest" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvHomeMakeUp"
+                    style="@style/homeRecyclerView" />
+
+                <View
+                    style="@style/viewBarHome"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/skinCare"
+                    android:textStyle="bold"
+                    android:text="@string/skinbest" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvHomeSkinCare"
+                    style="@style/homeRecyclerView" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
