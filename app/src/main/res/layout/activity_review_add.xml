@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ReviewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvDialogReviewShopName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/defaultShopName"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDialogReviewMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/selectMenu"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBarDialogReview"
+                style="@style/ratingBarFalse"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:id="@+id/ivDialogReviewImage"
+                android:layout_width="201dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/border_line"
+                android:padding="1dp"
+                app:srcCompat="@drawable/img_main" />
+
+            <EditText
+                android:id="@+id/edtDialogReviewContent"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_line"
+                android:ems="18"
+                android:gravity="top"
+                android:hint="@string/reviewHint"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:padding="10dp"
+                android:scrollHorizontally="false"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            android:id="@+id/btnReviewClose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/sub"
+            android:text="@string/close"
+            android:textColor="@color/main" />
+
+        <android.widget.Button
+            android:id="@+id/btnReviewSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@color/sub"
+            android:text="@string/save"
+            android:textColor="@color/main" />
+    </LinearLayout>
+
+</LinearLayout>
