@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "689427048414",
+    "firebase_url": "https://alreadyawesome-f1c73-default-rtdb.firebaseio.com",
+    "project_id": "alreadyawesome-f1c73",
+    "storage_bucket": "alreadyawesome-f1c73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689427048414:android:4e6aa406a861b840249f4f",
+        "android_client_info": {
+          "package_name": "kr.or.mrhi.alreadyawesome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689427048414-hgof8519968q0hej9u3e6setrj8lk0mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKdej-nVDJMK4idZQRlk2THZgZPYbxxt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689427048414-hgof8519968q0hej9u3e6setrj8lk0mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
