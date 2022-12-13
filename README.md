@@ -1,2 +1,2 @@
-# TeamProject_ALREADYAWESOME
-AndroidStudioProject
+# TEAM-PROJECT_ALREADYAWESOME
+TeamProject
